@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700i');
 
-
 /* reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -49,7 +48,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 
 h2 {
@@ -63,6 +62,10 @@ p {
     font-weight: lighter;
 }
 
+.headerstyle {
+  text-decoration: none;
+}
+
 /* ynfinyt text */
 
 marquee {
@@ -71,8 +74,178 @@ marquee {
     padding: 3px 0px;
 }
 
+.ynfin {
+  padding-top: 15vh;
+  position: inherit;
+}
+
+/* navbar new */
+
+.cbp-af-header {
+  list-style-type: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 10000;
+	height: 11vh;
+	overflow: hidden;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.cbp-af-header .cbp-af-inner {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+}
+
+.cbp-af-header h1,
+.cbp-af-header nav {
+	display: inline-block;
+	position: relative;
+}
+
+ /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+.cbp-af-header h1,
+.cbp-af-header nav a {
+	line-height:12vh;
+}
+
+.cbp-af-header h1 {
+	text-transform: uppercase;
+	color: #333;
+	letter-spacing: 4px;
+	font-size: 2.75em;
+	margin: 0;
+	float: left;
+}
+
+.cbp-af-header nav {
+	float: right;
+}
+
+.cbp-af-header nav a {
+	color: #aaa;
+  font-weight: lighter;
+	margin: 0 0 0 20px;
+	font-size: 1.4em;
+}
+
+.cbp-af-header nav a:hover {
+	color: #333;
+}
+
+/* Transitions and class for reduced height */
+.cbp-af-header h1,
+.cbp-af-header nav a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	height: 6vh;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1,
+.cbp-af-header.cbp-af-header-shrink nav a {
+	line-height: 9vh;
+}
+
+.cbp-af-header.cbp-af-header-shrink h1 {
+	font-size: 2em;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+
+	.cbp-af-header .cbp-af-inner {
+		width: 100%;
+	}
+
+	.cbp-af-header h1,
+	.cbp-af-header nav {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.cbp-af-header h1,
+	.cbp-af-header nav a {
+		line-height: 5.75vh;
+	}
+
+	.cbp-af-header nav a {
+		margin: 0 10px;
+    margin-top: -5px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 11vh;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1 {
+		font-size: 1em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 32.25em) {
+	.cbp-af-header nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 24em) {
+	.cbp-af-header nav a,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 1;
+	}
+}
+
+/* hero */
 
 
+#hero {
+  background-size:cover;
+  position:relative;
+  height:89vh;
+}
+
+.header {
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+
+}
+
+/* resume */
+
+#resume {
+  height:100vh;
+}
+
+/* about */
+
+#about {
+  height:100vh;
+}
+/* navbar old
 
 #wrapper .navbar {
 
@@ -102,3 +275,4 @@ marquee {
 #wrapper .navbar li a:hover {
     color: #grey;
 }
+*/
