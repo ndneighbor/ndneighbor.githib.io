@@ -72,6 +72,10 @@ marquee {
 
 /* navbar */
 
+#wrapper .navbar {
+  
+}
+
 #wrapper .navbar ul {
     list-style-type: none;
     margin: 0;
