@@ -68,15 +68,102 @@ p {
 
 /* ynfinyt text */
 
-marquee {
-    font-size: 300%;
-    font-weight: regular;
-    padding: 3px 0px;
-}
 
 .ynfin {
-  padding-top: 15vh;
-  position: inherit;
+  font-size: 400%;
+  color: #DCDFDF;
+  font-weight: bolder;
+  padding: 5px 0px;
+
+}
+
+
+.ynfin #p {
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: marquee 25s linear infinite;
+ -webkit-animation: marquee 25s linear infinite;
+ animation: marquee 25s linear infinite;
+}
+.ynfin #p2 {
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: marquee 30s linear infinite;
+ -webkit-animation: marquee 30s linear infinite;
+ animation: marquee 30s linear infinite;
+}
+.ynfin #p3 {
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: marquee 27s linear infinite;
+ -webkit-animation: marquee 27s linear infinite;
+ animation: marquee 27s linear infinite;
+}
+.ynfin #p4 {
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: marquee 29s linear infinite;
+ -webkit-animation: marquee 29s linear infinite;
+ animation: marquee 29s linear infinite;
+}
+.ynfin #p5 {
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: marquee 24s linear infinite;
+ -webkit-animation: marquee 24s linear infinite;
+ animation: marquee 24s linear infinite;
+}
+.ynfin #p6 {
+
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: marquee 22s linear infinite;
+ -webkit-animation: marquee 22s linear infinite;
+ animation: marquee 22s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes marquee {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes marquee {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes marquee {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
 }
 
 /* navbar new */
@@ -116,7 +203,6 @@ marquee {
 }
 
 .cbp-af-header h1 {
-	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
 	font-size: 2.75em;
