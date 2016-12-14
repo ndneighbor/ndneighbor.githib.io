@@ -80,9 +80,8 @@ p {
 
 }
 
-
 .ynfin #p {
-
+z-index: -1;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -93,7 +92,7 @@ p {
  animation: marquee 25s linear infinite;
 }
 .ynfin #p2 {
-
+z-index: -1;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -104,7 +103,7 @@ p {
  animation: marquee 30s linear infinite;
 }
 .ynfin #p3 {
-
+z-index: -1;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -115,7 +114,7 @@ p {
  animation: marquee 27s linear infinite;
 }
 .ynfin #p4 {
-
+z-index: -1;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -126,7 +125,7 @@ p {
  animation: marquee 29s linear infinite;
 }
 .ynfin #p5 {
-
+z-index: -1;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -137,7 +136,7 @@ p {
  animation: marquee 24s linear infinite;
 }
 .ynfin #p6 {
-
+z-index: -1;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -194,7 +193,7 @@ p {
 
 .cbp-af-header {
   list-style-type: none;
-	position: relative;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -329,6 +328,12 @@ p {
   background-size:cover;
   position:relative;
   height:89vh;
+  padding-top: 11vh;
+}
+
+.imghero{
+  display: inline;
+
 }
 
 .header {
@@ -342,6 +347,24 @@ p {
     -webkit-transform: translate(0,-50%); /* Safari */
     transform: translate(0,-50%);
 
+}
+
+/* icons */
+
+.icons{
+  width: 100%;
+  text-align: center;
+  display: inline;
+  list-style-type: none;
+  color: #000;
+  float: left;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 2.5em;
+}
+
+.icons ul li{
+  float: left;
 }
 
 /* resume */
