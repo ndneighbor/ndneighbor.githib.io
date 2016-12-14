@@ -9,6 +9,8 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+    max-width: 100%;
+    overflow-x: hidden;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -74,6 +76,7 @@ p {
   color: #DCDFDF;
   font-weight: bolder;
   padding: 5px 0px;
+  white-space:nowrap;
 
 }
 
@@ -154,6 +157,27 @@ p {
  100% { -webkit-transform: translateX(-100%); }
 }
 @keyframes marquee {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+
+@-moz-keyframes marquee2 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes marquee2 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes marquee2 {
  0%   {
  -moz-transform: translateX(100%); /* Firefox bug fix */
  -webkit-transform: translateX(100%); /* Firefox bug fix */

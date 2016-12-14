@@ -22,8 +22,8 @@ Its hard as shit to get the proper CSS marquee text
 
 1. Animated Pretentious Descriptors About Myself
 2. Written SVG Logo said text
-3. Dynamic Navbar that appears after scroll
-4. Contact logos within the navbar
+3. Dynamic Navbar that changes after scroll
+4. Contact logos within the navbar (maybe)
 5. Hero Div that takes the max viewport size
 6. Divs Following that that take up the max viewport size
 7. A footer that says "Pushed from my MacBook"
