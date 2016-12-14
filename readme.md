@@ -16,6 +16,8 @@ It follows these rules
 
 As the design process goes along, I will be writing down some interesting notes.
 
+Its hard as shit to get the proper CSS marquee text
+
 ### Design Features
 
 1. Animated Pretentious Descriptors About Myself
