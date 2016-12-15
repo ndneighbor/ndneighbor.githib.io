@@ -16,9 +16,11 @@ It follows these rules
 
 As the design process goes along, I will be writing down some interesting notes.
 
-Its hard as shit to get the proper CSS marquee text
+Its hard as s**t to get the proper CSS marquee text
 
-### Design Features
+
+
+### Design Features to be Added
 
 1. Animated Pretentious Descriptors About Myself
 2. Written SVG Logo said text
