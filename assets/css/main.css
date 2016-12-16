@@ -400,7 +400,13 @@ ul.icons {
   float: left;
 }
 
+@media screen and (max-width: 402px) {
+	.icons {
+		font-size: 30px;
+	}
+}
 /* resume */
+
 
 #resume {
   height:100vh;
