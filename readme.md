@@ -30,6 +30,7 @@ Its hard as s**t to get the proper CSS marquee text
 6. Divs Following that that take up the max viewport size
 7. A footer that says "Pushed from my MacBook"
 8. User hostile feel without photos
+9. Content from APIs
 
 
 ## The ngelo API
